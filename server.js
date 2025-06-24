@@ -39,4 +39,5 @@ app.listen(PORT, () => {
   console.log(`Serveur lancé sur le port ${PORT}`);
 });
 
-changement du modèle vers zephyr-7b-beta
+🔧 Fix port for Render (use process.env.PORT)
+
