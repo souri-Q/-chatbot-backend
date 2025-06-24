@@ -32,3 +32,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Serveur lancé sur le port ${PORT}`);
 });
+changement du modèle vers zephyr-7b-beta
