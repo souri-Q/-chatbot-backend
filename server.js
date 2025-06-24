@@ -33,7 +33,10 @@ app.get('/', (req, res) => {
   res.send('Backend chatbot PSE en ligne 🚀');
 });
 
+const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
   console.log(`Serveur lancé sur le port ${PORT}`);
 });
+
 changement du modèle vers zephyr-7b-beta
